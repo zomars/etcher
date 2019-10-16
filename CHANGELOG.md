@@ -3,6 +3,11 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+# v1.6.0
+## (2019-10-16)
+
+* correct two nomenclature errors [Rich Morin]
+
 # v1.5.59
 ## (2019-10-14)
 
