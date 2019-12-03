@@ -14,21 +14,17 @@
  * limitations under the License.
  */
 
-'use strict'
-
-// eslint-disable-next-line no-unused-vars
-const React = require('react')
-const { default: styled } = require('styled-components')
-const {
+import * as React from 'react';
+import styled from 'styled-components';
+import {
   Button,
   Txt,
   Flex,
   Provider
-} = require('rendition')
-const {
-  space
-} = require('styled-system')
-const { colors } = require('./theme')
+} from 'rendition';
+import { space } from 'styled-system';
+
+import { colors } from './theme';
 
 const theme = {
   button: {
@@ -58,23 +54,21 @@ const theme = {
   }
 }
 
-exports.ThemedProvider = (props) => (
+export const ThemedProvider = (props: any) => (
   <Provider theme={theme} {...props}>
   </Provider>
 )
 
-const BaseButton = styled(Button) `
+export const BaseButton = styled(Button) `
   height: 48px;
 `
 
-exports.BaseButton = BaseButton
-
-exports.StepButton = (props) => (
+export const StepButton = (props: any) => (
   <BaseButton primary {...props}>
   </BaseButton>
 )
 
-exports.ChangeButton = styled(BaseButton) `
+export const ChangeButton = styled(BaseButton) `
   color: ${colors.primary.background};
   padding: 0;
   width: 100%;
@@ -85,7 +79,7 @@ exports.ChangeButton = styled(BaseButton) `
     color: ${colors.primary.background};
   }
 `
-exports.StepNameButton = styled(BaseButton) `
+export const StepNameButton = styled(BaseButton) `
   display: flex;
   justify-content: center;
   align-items: center;
@@ -97,20 +91,20 @@ exports.StepNameButton = styled(BaseButton) `
     color: ${colors.primary.foreground};
   }
 `
-exports.StepSelection = styled(Flex) `
+export const StepSelection = styled(Flex) `
   flex-wrap: wrap;
   justify-content: center;
 `
-exports.Footer = styled(Txt) `
+export const Footer = styled(Txt) `
   margin-top: 10px;
   color: ${colors.dark.disabled.foreground};
   font-size: 10px;
 `
-exports.Underline = styled(Txt.span) `
+export const Underline = styled(Txt.span) `
   border-bottom: 1px dotted;
   padding-bottom: 2px;
 `
-exports.DetailsText = styled(Txt.p) `
+export const DetailsText = styled(Txt.p) `
   color: ${colors.dark.disabled.foreground};
   margin-bottom: 0;
 `
