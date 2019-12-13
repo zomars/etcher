@@ -1,0 +1,102 @@
+{
+  "unsafeMode": false,
+  "errorReporting": true,
+  "unmountOnSuccess": true,
+  "validateWriteOnSuccess": true,
+  "trim": true,
+  "updatesEnabled": true,
+  "lastSleptUpdateNotifier": null,
+  "lastSleptUpdateNotifierVersion": null,
+  "desktopNotifications": false,
+  "fullscreen": true,
+  "driveBlacklist": [
+    "/dev/mmcblk0rpmb",
+    "/dev/mmcblk0",
+    "/dev/mmcblk0boot0",
+    "/dev/mmcblk0boot1"
+  ],
+  "disableExternalLinks": true,
+  "disableUnsafeMode": true,
+  "ledsMapping": {
+    "platform-xhci-hcd.0.auto-usb-0:1.1.1:1.0-scsi-0:0:0:0": [
+      "/sys/class/leds/led1_r/brightness",
+      "/sys/class/leds/led1_g/brightness",
+      "/sys/class/leds/led1_b/brightness"
+    ],
+    "platform-xhci-hcd.0.auto-usb-0:1.1.2:1.0-scsi-0:0:0:0": [
+      "/sys/class/leds/led2_r/brightness",
+      "/sys/class/leds/led2_g/brightness",
+      "/sys/class/leds/led2_b/brightness"
+    ],
+    "platform-xhci-hcd.0.auto-usb-0:1.1.3:1.0-scsi-0:0:0:0": [
+      "/sys/class/leds/led3_r/brightness",
+      "/sys/class/leds/led3_g/brightness",
+      "/sys/class/leds/led3_b/brightness"
+    ],
+    "platform-xhci-hcd.0.auto-usb-0:1.1.4:1.0-scsi-0:0:0:0": [
+      "/sys/class/leds/led4_r/brightness",
+      "/sys/class/leds/led4_g/brightness",
+      "/sys/class/leds/led4_b/brightness"
+    ],
+    "platform-xhci-hcd.0.auto-usb-0:1.2.1:1.0-scsi-0:0:0:0": [
+      "/sys/class/leds/led5_r/brightness",
+      "/sys/class/leds/led5_g/brightness",
+      "/sys/class/leds/led5_b/brightness"
+    ],
+    "platform-xhci-hcd.0.auto-usb-0:1.2.2:1.0-scsi-0:0:0:0": [
+      "/sys/class/leds/led6_r/brightness",
+      "/sys/class/leds/led6_g/brightness",
+      "/sys/class/leds/led6_b/brightness"
+    ],
+    "platform-xhci-hcd.0.auto-usb-0:1.2.3:1.0-scsi-0:0:0:0": [
+      "/sys/class/leds/led7_r/brightness",
+      "/sys/class/leds/led7_g/brightness",
+      "/sys/class/leds/led7_b/brightness"
+    ],
+    "platform-xhci-hcd.0.auto-usb-0:1.2.4:1.0-scsi-0:0:0:0": [
+      "/sys/class/leds/led8_r/brightness",
+      "/sys/class/leds/led8_g/brightness",
+      "/sys/class/leds/led8_b/brightness"
+    ],
+    "platform-xhci-hcd.1.auto-usb-0:1.1.1:1.0-scsi-0:0:0:0": [
+      "/sys/class/leds/led9_r/brightness",
+      "/sys/class/leds/led9_g/brightness",
+      "/sys/class/leds/led9_b/brightness"
+    ],
+    "platform-xhci-hcd.1.auto-usb-0:1.1.2:1.0-scsi-0:0:0:0": [
+      "/sys/class/leds/led10_r/brightness",
+      "/sys/class/leds/led10_g/brightness",
+      "/sys/class/leds/led10_b/brightness"
+    ],
+    "platform-xhci-hcd.1.auto-usb-0:1.1.3:1.0-scsi-0:0:0:0": [
+      "/sys/class/leds/led11_r/brightness",
+      "/sys/class/leds/led11_g/brightness",
+      "/sys/class/leds/led11_b/brightness"
+    ],
+    "platform-xhci-hcd.1.auto-usb-0:1.1.4:1.0-scsi-0:0:0:0": [
+      "/sys/class/leds/led12_r/brightness",
+      "/sys/class/leds/led12_g/brightness",
+      "/sys/class/leds/led12_b/brightness"
+    ],
+    "platform-xhci-hcd.1.auto-usb-0:1.2.1:1.0-scsi-0:0:0:0": [
+      "/sys/class/leds/led13_r/brightness",
+      "/sys/class/leds/led13_g/brightness",
+      "/sys/class/leds/led13_b/brightness"
+    ],
+    "platform-xhci-hcd.1.auto-usb-0:1.2.2:1.0-scsi-0:0:0:0": [
+      "/sys/class/leds/led14_r/brightness",
+      "/sys/class/leds/led14_g/brightness",
+      "/sys/class/leds/led14_b/brightness"
+    ],
+    "platform-xhci-hcd.1.auto-usb-0:1.2.3:1.0-scsi-0:0:0:0": [
+      "/sys/class/leds/led15_r/brightness",
+      "/sys/class/leds/led15_g/brightness",
+      "/sys/class/leds/led15_b/brightness"
+    ],
+    "platform-xhci-hcd.1.auto-usb-0:1.2.4:1.0-scsi-0:0:0:0": [
+      "/sys/class/leds/led16_r/brightness",
+      "/sys/class/leds/led16_g/brightness",
+      "/sys/class/leds/led16_b/brightness"
+    ]
+  }
+}
