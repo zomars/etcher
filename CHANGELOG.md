@@ -3,6 +3,11 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+# v1.5.74
+## (2020-01-31)
+
+* Prefix temp permissions script name [Lorenzo Alberto Maria Ambrosi]
+
 # v1.5.73
 ## (2020-01-28)
 
