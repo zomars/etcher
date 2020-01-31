@@ -129,8 +129,8 @@ export const error = {
 		].join(' ');
 	},
 
-	genericFlashError: () => {
-		return 'Something went wrong. If it is a compressed image, please check that the archive is not corrupted.';
+	genericFlashError: (err: Error) => {
+		return `Something went wrong. If it is a compressed image, please check that the archive is not corrupted.\n\n${err.message}`;
 	},
 
 	validation: () => {
